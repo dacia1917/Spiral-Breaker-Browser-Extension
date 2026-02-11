@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="stylesheet" href="popup.css" /> -->
+    <style>
+        body { font-family: sans-serif; width: 300px; padding: 10px; }
+        input { width: 100%; margin-bottom: 5px; }
+        button { width: 100%; margin-top: 5px; }
+    </style>
+  </head>
+
+  <body>
+    <h3>Tracked Sites</h3>
+    <div id="sites"></div>
+
+    <input id="site" placeholder="example.com" />
+    <input id="minutes" type="number" placeholder="Minutes" />
+    <button id="add">Add / Update</button>
+
+    <!--<div id="error-content" class="hidden">
+      <p>Can't beastify this web page.</p>
+      <p>Try a different page.</p>
+    </div>-->
+    <script src="popup.js"></script>
+  </body>
+</html>
